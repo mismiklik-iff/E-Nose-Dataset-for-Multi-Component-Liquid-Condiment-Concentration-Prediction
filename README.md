@@ -1,5 +1,5 @@
 # **E-Nose Dataset for Multi-Component Liquid Condiment Concentration Prediction**
-### Overview
+## Overview
 This repository provides an electronic nose (E-nose) dataset collected using a self-built gas sensing system for concentration prediction of liquid condiments.
 
 The dataset consists of two subsets:
@@ -19,7 +19,7 @@ The dataset focuses on three common liquid condiments:
 - Cooking wine
 - Soy sauce
 
-### Experimental Conditions
+## Experimental Conditions
 Different concentration combinations were prepared and measured under controlled laboratory conditions.
 During data acquisition:
 
@@ -28,7 +28,7 @@ During data acquisition:
 
 The controlled environment helps improve measurement consistency and reduce the influence of temperature and humidity fluctuations on the responses of the MOS sensor array.
 
-### Electronic Nose System
+## Electronic Nose System
 The gas sensor array consists of:
 
 1. MP3B
@@ -48,7 +48,7 @@ Sensor signals were acquired using an ADS1256 analog-to-digital converter:
 
 A DC air pump was employed to provide a stable and continuous airflow throughout the measurement process.
 
-### Measurement Protocol
+## Measurement Protocol
 Gas flow paths were automatically switched using solenoid valves during data acquisition.
 Each measurement cycle consisted of four sequential stages:
 
@@ -76,7 +76,7 @@ At a sampling frequency of 5 Hz, each sample contains:
 90 × 5 = 450 time points
 
 for each of the eight sensor channels.
-### Dataset Statistics
+## Dataset Statistics
 ### Single-Component Dataset(SINGLE/SINGLEcsv)
 The single-component dataset contains measurements of individual condiments at concentration levels from 10% to 100% with a 10% interval.
 A shared 0% concentration sample is represented by pure water and serves as the zero-concentration reference for all three condiments.
@@ -128,7 +128,7 @@ Total multi-component samples:
 - Multi-component: 7650 samples
 - Total: 9200 samples
 
-### Data Format
+## Data Format
 The dataset is provided in two formats:
 ### CSV Format
 Example filename:
@@ -207,7 +207,7 @@ Data structure:
 |8|TGS2602(V)|
 |9|TGS2600(V)|
 
-### Dataset Organization
+## Dataset Organization
 ### TXT Dataset Structure
 The TXT dataset is organized into subdirectories according to concentration combinations.
 Example:
