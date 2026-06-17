@@ -205,7 +205,7 @@ Data structure:
 ### TXT Dataset Structure
 The TXT dataset is organized into subdirectories according to concentration combinations.
 Example:
-
+```
 SINGLE/
 ├── 0-5-0/
 │   ├── 0-5-0-1.txt
@@ -220,7 +220,7 @@ MULTI/
 │   ├── 1-2-3-1.txt
 │   ├── 1-2-3-2.txt
 │   └── ...
-
+```
 Directory names encode concentration combinations:
 
 RiceVinegar-CookingWine-SoySauce
@@ -231,7 +231,7 @@ RiceVinegar-CookingWine-SoySauce-SampleIndex.txt
 ### CSV Dataset Structure
 The CSV dataset is stored without concentration-specific subdirectories.
 Example:
-
+```
 SINGLEcsv/
 ├── 00%米醋00%料酒20%酱油43号样本.csv
 ├── 00%米醋00%料酒30%酱油12号样本.csv
@@ -240,7 +240,7 @@ MIXEDcsv/
 ├── 00%米醋10%料酒10%酱油15号样本.csv
 ├── 20%米醋30%料酒00%酱油1号样本.csv
 └── ...
-
+```
 The concentration labels are directly encoded in the file names.
 
 The CSV and TXT datasets contain identical sensor measurements and labels. The only differences are file naming conventions and the presence of column headers in CSV files.
