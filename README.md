@@ -1,6 +1,12 @@
 ## **E-Nose Dataset for Multi-Component Liquid Condiment Concentration Prediction**
 ### Overview
 This repository provides an electronic nose (E-nose) dataset collected using a self-built gas sensing system for concentration prediction of liquid condiments.
+
+The dataset consists of two subsets:
+
+- SINGLE: Single-component samples
+- MIXED: Multi-component mixture samples
+
 The sensing platform consists of:
 
 - An 8-sensor metal oxide semiconductor (MOS) gas sensor array
@@ -71,7 +77,7 @@ At a sampling frequency of 5 Hz, each sample contains:
 
 for each of the eight sensor channels.
 ### Dataset Statistics
-### Single-Component Dataset
+### Single-Component Dataset(SINGLE/SINGLEcsv)
 The single-component dataset contains measurements of individual condiments at concentration levels from 10% to 100% with a 10% interval.
 A shared 0% concentration sample is represented by pure water and serves as the zero-concentration reference for all three condiments.
 Concentration levels:
@@ -102,7 +108,7 @@ Total number of samples:
 Total single-component samples:
 
 1,550 samples
-### Multi-Component Dataset
+### Multi-Component Dataset(MIXED/MIXEDcsv)
 The multi-component dataset contains all possible binary and ternary mixtures under the following constraint:
 
 Rice Vinegar (%) + Cooking Wine (%) + Soy Sauce (%) ≤ 100%
