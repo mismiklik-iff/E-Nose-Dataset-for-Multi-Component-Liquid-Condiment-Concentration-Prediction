@@ -256,11 +256,11 @@ MIXED/
 
 目录名称编码规则：
 
-RiceVinegar-CookingWine-SoySauce
+米醋-料酒-酱油
 
 文件名称格式：
 
-RiceVinegar-CookingWine-SoySauce-SampleIndex.txt
+米醋-料酒-酱油-样本序号.txt
 
 ### CSV数据集目录结构
 
