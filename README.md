@@ -1,3 +1,4 @@
+[English](README.md) | [中文](README_CN.md)
 # **E-Nose Dataset for Multi-Component Liquid Condiment Concentration Prediction**
 ## Overview
 This repository provides an electronic nose (E-nose) dataset collected using a self-built gas sensing system for concentration prediction of liquid condiments.
