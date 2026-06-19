@@ -251,3 +251,14 @@ MIXEDcsv/
 The concentration labels are directly encoded in the file names.
 
 The CSV and TXT datasets contain identical sensor measurements and labels. The only differences are file naming conventions and the presence of column headers in CSV files.
+
+## Related Publication
+This dataset was collected and released as part of the research presented in:
+
+A Quantitative Analysis Method for Condiments Based on Feature Fusion Temporal Convolutional Network
+
+Authors: Luo Minghao, Su Yongqing, Liu Haichuan, Yue Jiguang
+
+Status: Under Review
+
+The dataset serves as the experimental benchmark for the concentration prediction models evaluated in the paper.
